@@ -1,8 +1,6 @@
 //--Summary:
 //  Use functions to perform basic operations and print some
 //  information to the terminal.
-//
-//--Requirements:
 
 package main
 
