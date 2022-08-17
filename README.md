@@ -36,3 +36,8 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 - The main function is first function that we run in a program
 
 - Functions
+    - Encapsulate program functionality which leads to more maintainable code
+    - Have parameters which define the input data
+    - Are used by calling the function and supplying arguments
+    - Can return multiple values
+    - And underscore (_) can be used to ignore a return value
