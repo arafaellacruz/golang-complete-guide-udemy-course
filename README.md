@@ -59,7 +59,7 @@ To view solutions using the cloned repo, check out the solutions branch using: `
         - Increment/Decrement
             i++
             i--
-    ** Arithmetic operators always return a number
+    ** Arithmetic operators always return a number **
 
     - Relational Operators
         <   Less Than
