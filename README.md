@@ -84,4 +84,9 @@ To view solutions using the cloned repo, check out the solutions branch using: `
             return
         }
 
+# Switch
+    - Can be use to check a variable for different values;
+        - Use comma to check multiple values on a single case;
+    - The 'fallthrough'keyword will execute the next case.
+
     
