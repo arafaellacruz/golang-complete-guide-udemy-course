@@ -89,4 +89,11 @@ To view solutions using the cloned repo, check out the solutions branch using: `
         - Use comma to check multiple values on a single case;
     - The 'fallthrough'keyword will execute the next case.
 
+# Looping
+    - The 'for' keyword creates a loop;
+    - Use the 'break'keyword to exit the loop on a specific condition;
+    - The initialization variable can be used only with the loop block;
+        for i := 1; i < 10; i++; {}  // for i <10 {}  //  for {}
+#
+
     
