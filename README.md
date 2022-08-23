@@ -1,6 +1,19 @@
 # Go Programming (Golang): The Complete Developer's Guide by Udemy Course
 This repo contains my exercises and annotations that I made during the course. Be comfortable to clone or talk to me about it :)
 
+## Summary
+
+    * [Section 1: Introduction about the course and resources] (#section 1)
+    * [Section 2: Introduction to Go (Golang)]
+    * [Section 3: Go programming: Fundamentals] ()
+    * [Section 4: Go programming: Types] ()
+    * [Section 5: Idiomatic Go] ()
+    * [Section 6: Interfaces in Go] ()
+    * [Section 7: Concurrent Programming with Go] ()
+    * [Section 8: Final Milestone Project: Pixl] ()
+    * [Section 9: Project: MailingList Microservice] ()
+    * [Section 10: Where to Go from here?] ()
+    * [Section 11: BONUS SECTION] ()
 ## Section 1: Introduction about the course and resources
 You can find all of the course projects, code, slides at the below repository. You can use this as a guide as you go through the course, learn Go, and build projects!
 
@@ -94,6 +107,11 @@ To view solutions using the cloned repo, check out the solutions branch using: `
     - Use the 'break'keyword to exit the loop on a specific condition;
     - The initialization variable can be used only with the loop block;
         for i := 1; i < 10; i++; {}  // for i <10 {}  //  for {}
-#
-
+# Section Review - Dice Roller
+    - In this class I'm gonna make a coding exercise, that will creating a program with some topics that we've covered in this section, such as:
+        ➡ [Standard Library Packages](https://pkg.go.dev/std);
+        ➡ [Generating Random Numbers] (https://pkg.go.dev/math/rand@go1.19);
+        ➡ Control Flow;
+        ➡ Looping;
+        ➡ Retrieving System Time
     
