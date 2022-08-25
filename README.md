@@ -115,4 +115,11 @@ To view solutions using the cloned repo, check out the solutions branch using: `
         ➡ Looping;
         ➡ Retrieving System Time
     
+## Section 4: Types
 
+# Structures
+- Use to group similar data;
+- Are similar to a "class" in other programming languages;
+- Defining a Structure: We'll use the keyword 'type' followed by the name of the structure and then finally the 'struct' keyword;
+- Default Values: Any fields not indicated during instantiation will have default values
+- Accessing Fields: fields can be read from and written to
