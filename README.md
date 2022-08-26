@@ -3,17 +3,17 @@ This repo contains my exercises and annotations that I made during the course. B
 
 ## Summary
 
-    * [Section 1: Introduction about the course and resources] (#section 1)
-    * [Section 2: Introduction to Go (Golang)]
-    * [Section 3: Go programming: Fundamentals] ()
-    * [Section 4: Go programming: Types] ()
-    * [Section 5: Idiomatic Go] ()
-    * [Section 6: Interfaces in Go] ()
-    * [Section 7: Concurrent Programming with Go] ()
-    * [Section 8: Final Milestone Project: Pixl] ()
-    * [Section 9: Project: MailingList Microservice] ()
-    * [Section 10: Where to Go from here?] ()
-    * [Section 11: BONUS SECTION] ()
+* [Section 1: Introduction about the course and resources] (#section 1)
+* [Section 2: Introduction to Go (Golang)]
+* [Section 3: Go programming: Fundamentals] ()
+* [Section 4: Go programming: Types] ()
+* [Section 5: Idiomatic Go] ()
+* [Section 6: Interfaces in Go] ()
+* [Section 7: Concurrent Programming with Go] ()
+* [Section 8: Final Milestone Project: Pixl] ()
+* [Section 9: Project: MailingList Microservice] ()
+* [Section 10: Where to Go from here?] ()
+* [Section 11: BONUS SECTION] ()
 ## Section 1: Introduction about the course and resources
 You can find all of the course projects, code, slides at the below repository. You can use this as a guide as you go through the course, learn Go, and build projects!
 
@@ -40,86 +40,90 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 - Go CLI Tool provides the go command line utility (go build, go run, go test, etc.)
 
 ## Section 3: Go programming Fundamentals
-# Variables 
-    - Are a way to access memory locations using an alias
-	- Multiple ways to create variables: single, compound, block, create e assign
-	- Variables can be assigned to other variables
-	- Variables names can only be used once per scope
-	- Variables declared, but not assigned to, will have a default value
-	- "Comma, ok" idiom allows you to reuse the second variable
-- The main function is first function that we run in a program
+### Variables 
+- Are a way to access memory locations using an alias
+- Multiple ways to create variables: single, compound, block, create e assign
+- Variables can be assigned to other variables
+- Variables names can only be used once per scope
+- Variables declared, but not assigned to, will have a default value
+- "Comma, ok" idiom allows you to reuse the second variable
 
-# Functions
-    - Encapsulate program functionality which leads to more maintainable code
-    - Have parameters which define the input data
-    - Are used by calling the function and supplying arguments
-    - Can return multiple values
-    - And underscore (_) can be used to ignore a return value
+*The main function is first function that we run in a program*
 
-# Operators
-    - Arithmetic Operators:
-        + Addition          +=
-        - Subtraction       -=
-        * Multiplication    *=
-        / Divisor           /=
-        % Remainder         %=
+### Functions
+- Encapsulate program functionality which leads to more maintainable code
+- Have parameters which define the input data
+- Are used by calling the function and supplying arguments
+- Can return multiple values
+- And underscore (_) can be used to ignore a return value
+
+### Operators
+- Arithmetic Operators:
+    + Addition          +=
+    - Subtraction       -=
+    * Multiplication    *=
+    / Divisor           /=
+    % Remainder         %=
     
-        - Arithmetic Operators
-            var total = 3 + 3
-        - Arithmetic Assignment
-            a := 1      a := 1
-            a += 3      a = a + 3
-        - Increment/Decrement
-            i++
-            i--
-    ** Arithmetic operators always return a number **
+- Arithmetic Operators
+    var total = 3 + 3
+- Arithmetic Assignment
+    a := 1      a := 1
+    a += 3      a = a + 3
+- Increment/Decrement
+    i++
+    i--
 
-    - Relational Operators
-        <   Less Than
-        <=  Less Than or Equal To
-        >   Greater Than
-        >=  Greater Than or Equal To
-        ==  Equal To
-        !=  Not Equal To
+*Arithmetic operators always return a number*
 
-    - Logic Operators (true or false)
-        &&  And
-        ||  Or
-        !   Not
+- Relational Operators
+    <   Less Than
+    <=  Less Than or Equal To
+    >   Greater Than
+    >=  Greater Than or Equal To
+    ==  Equal To
+    !=  Not Equal To
 
-# If... Else
-    - If block is for true condition
-    - Else block is for the false condition
+- Logic Operators (true or false)
+    &&  And
+    ||  Or
+    !   Not
 
-    - Early returns should be used when possible for efficiency and code clarity
-        token, err := getSession("rafaella")
-        if err != nil {
-            return
-        }
+### If... Else
+- If block is for true condition
+- Else block is for the false condition
 
-# Switch
-    - Can be use to check a variable for different values;
-        - Use comma to check multiple values on a single case;
-    - The 'fallthrough'keyword will execute the next case.
+- Early returns should be used when possible for efficiency and code clarity
+    token, err := getSession("rafaella")
+    if err != nil {
+        return
+    }
 
-# Looping
-    - The 'for' keyword creates a loop;
-    - Use the 'break'keyword to exit the loop on a specific condition;
-    - The initialization variable can be used only with the loop block;
-        for i := 1; i < 10; i++; {}  // for i <10 {}  //  for {}
-# Section Review - Dice Roller
-    - In this class I'm gonna make a coding exercise, that will creating a program with some topics that we've covered in this section, such as:
-        ➡ [Standard Library Packages](https://pkg.go.dev/std);
-        ➡ [Generating Random Numbers] (https://pkg.go.dev/math/rand@go1.19);
-        ➡ Control Flow;
-        ➡ Looping;
-        ➡ Retrieving System Time
+### Switch
+- Can be use to check a variable for different values;
+    - Use comma to check multiple values on a single case;
+- The 'fallthrough'keyword will execute the next case.
+
+### Looping
+- The 'for' keyword creates a loop;
+- Use the 'break'keyword to exit the loop on a specific condition;
+- The initialization variable can be used only with the loop block;
+    for i := 1; i < 10; i++; {}  // for i <10 {}  //  for {}
+### Section Review - Dice Roller
+- In this class I'm gonna make a coding exercise, that will creating a program with some topics that we've covered in this section, such as:
+    ➡ [Standard Library Packages](https://pkg.go.dev/std);
+    ➡ [Generating Random Numbers] (https://pkg.go.dev/math/rand@go1.19);
+    ➡ Control Flow;
+    ➡ Looping;
+    ➡ Retrieving System Time
     
 ## Section 4: Types
 
-# Structures
+### Structures
 - Use to group similar data;
 - Are similar to a "class" in other programming languages;
 - Defining a Structure: We'll use the keyword 'type' followed by the name of the structure and then finally the 'struct' keyword;
 - Default Values: Any fields not indicated during instantiation will have default values
 - Accessing Fields: fields can be read from and written to
+
+### Arrays
