@@ -3,17 +3,17 @@ This repo contains my exercises and annotations that I made during the course. B
 
 ## Summary
 
-[Section 1: Introduction about the course and resources] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
-[Section 2: Introduction to Go (Golang)] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
-[Section 3: Go programming: Fundamentals] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
-[Section 4: Go programming: Types] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-4-types)
-[Section 5: Idiomatic Go] ()
-[Section 6: Interfaces in Go] ()
-[Section 7: Concurrent Programming with Go] ()
-[Section 8: Final Milestone Project: Pixl] ()
-[Section 9: Project: MailingList Microservice] ()
-[Section 10: Where to Go from here?] ()
-[Section 11: BONUS SECTION] ()
+- [Section 1: Introduction about the course and resources] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
+- [Section 2: Introduction to Go (Golang)] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
+- [Section 3: Go programming: Fundamentals] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
+- [Section 4: Go programming: Types] (#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-4-types)
+- [Section 5: Idiomatic Go] ()
+- [Section 6: Interfaces in Go] ()
+- [Section 7: Concurrent Programming with Go] ()
+- [Section 8: Final Milestone Project: Pixl] ()
+- [Section 9: Project: MailingList Microservice] ()
+- [Section 10: Where to Go from here?] ()
+- [Section 11: BONUS SECTION] ()
 ## Section 1: Introduction about the course and resources
 You can find all of the course projects, code, slides at the below repository. You can use this as a guide as you go through the course, learn Go, and build projects!
 
