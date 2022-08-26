@@ -1,5 +1,5 @@
-# Go Programming (Golang): The Complete Developer's Guide by Udemy Course
-This repo contains my exercises and annotations that I made during the course. Be comfortable to clone or talk to me about it :)
+# Go Programming (Golang)
+This repo contains my exercises and annotations that I made during the course "Go Programming (Golang): The Complete Developer's Guide by Udemy Course". Be comfortable to clone or talk to me about it :)
 
 ## Summary
 
