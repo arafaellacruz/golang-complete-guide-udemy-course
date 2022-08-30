@@ -112,7 +112,7 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 ### Section Review - Dice Roller
 - In this class I'm gonna make a coding exercise, that will creating a program with some topics that we've covered in this section, such as:
     ➡ [Standard Library Packages](https://pkg.go.dev/std);
-    ➡ [Generating Random Numbers] (https://pkg.go.dev/math/rand@go1.19);
+    ➡ [Generating Random Numbers](https://pkg.go.dev/math/rand@go1.19);
     ➡ Control Flow;
     ➡ Looping;
     ➡ Retrieving System Time.
