@@ -1,12 +1,12 @@
-# Go Programming (Golang): The Complete Developer's Guide by Udemy Course
-This repo contains my exercises and annotations that I made during the course. Be comfortable to clone or talk to me about it :)
+# Go Programming (Golang)
+This repo contains my exercises and annotations that I made during the course "Go Programming (Golang): The Complete Developer's Guide by Udemy Course". Be comfortable to clone or talk to me about it :)
 
 ## Summary
 
-- [Section 1: Introduction about the course and resources](#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
-- [Section 2: Introduction to Go (Golang)](#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
-- [Section 3: Go programming: Fundamentals](#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
-- [Section 4: Go programming: Types](#https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-4-types)
+- [Section 1: Introduction about the course and resources](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
+- [Section 2: Introduction to Go (Golang)](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
+- [Section 3: Go programming: Fundamentals](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
+- [Section 4: Go programming: Types](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-4-types)
 - [Section 5: Idiomatic Go] ()
 - [Section 6: Interfaces in Go] ()
 - [Section 7: Concurrent Programming with Go] ()
@@ -115,7 +115,7 @@ To view solutions using the cloned repo, check out the solutions branch using: `
     ➡ [Generating Random Numbers] (https://pkg.go.dev/math/rand@go1.19);
     ➡ Control Flow;
     ➡ Looping;
-    ➡ Retrieving System Time
+    ➡ Retrieving System Time.
     
 ## Section 4: Types
 
@@ -123,7 +123,13 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 - Use to group similar data;
 - Are similar to a "class" in other programming languages;
 - Defining a Structure: We'll use the keyword 'type' followed by the name of the structure and then finally the 'struct' keyword;
-- Default Values: Any fields not indicated during instantiation will have default values
-- Accessing Fields: fields can be read from and written to
+- Default Values: Any fields not indicated during instantiation will have default values;
+- Accessing Fields: fields can be read from and written to.
 
 ### Arrays
+- Are fixed-size collections of same-type items;
+- Are accessed using an *array index*;
+- Array elements can be optionally set during array creation;
+- Elements not manually assigned a value will have a default;
+- Use the *len()* function to iterate arrays in a *for* loop;
+- Whenever we're working with the iterator variable itself within a for loop, *always make a copy*;
