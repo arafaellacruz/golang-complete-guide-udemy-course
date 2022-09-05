@@ -147,3 +147,14 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 - Slice memory can be preallocated using the *make()* function;
 - Slices always require an underlying array.
 - The make built-in function allocates and initializes an object of type slice, map, or chan (only). Like new, the first argument is a type, not a value. Unlike new, make's return type is the same as the type of its argument, not a pointer to it.
+
+#### Ranges
+- The *range* keyword create an iterator for us, automatically. It's kind of like an easier way of making a 'for'loop with the counter.
+```
+slice := []string{"Hello", "world", "!"}
+// i always start with the 0 index.
+// And when we use 'range'we're going to get two things back from a slice, the index and the and the content of the index.
+for i, element := range slice {
+    fmt.Println(i, element)
+}
+```
