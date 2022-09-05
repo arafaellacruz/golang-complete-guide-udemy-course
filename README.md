@@ -111,11 +111,16 @@ To view solutions using the cloned repo, check out the solutions branch using: `
     for i := 1; i < 10; i++; {}  // for i <10 {}  //  for {}
 ### Section Review - Dice Roller
 - In this class I'm gonna make a coding exercise, that will creating a program with some topics that we've covered in this section, such as:
-    ➡ [Standard Library Packages](https://pkg.go.dev/std);
-    ➡ [Generating Random Numbers](https://pkg.go.dev/math/rand@go1.19);
-    ➡ Control Flow;
-    ➡ Looping;
-    ➡ Retrieving System Time.
+        <br>
+        ➡ [Standard Library Packages](https://pkg.go.dev/std);
+        <br>
+        ➡ [Generating Random Numbers](https://pkg.go.dev/math/rand@go1.19);
+        <br>
+        ➡ Control Flow;
+        <br>
+        ➡ Looping;
+        <br>
+        ➡ Retrieving System Time.
     
 ## Section 4: Types
 
@@ -133,3 +138,12 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 - Elements not manually assigned a value will have a default;
 - Use the *len()* function to iterate arrays in a *for* loop;
 - Whenever we're working with the iterator variable itself within a for loop, *always make a copy*;
+
+### Slices
+- Slices are a more convenient way to work with arrays;
+    Example: nameOfSlice := []typeOfSlice{"itemsOfTheSlice, x, y, z"}
+- Can be resized using the *append()* function;
+- Can be created with a special *slice syntax*;
+- Slice memory can be preallocated using the *make()* function;
+- Slices always require an underlying array.
+- The make built-in function allocates and initializes an object of type slice, map, or chan (only). Like new, the first argument is a type, not a value. Unlike new, make's return type is the same as the type of its argument, not a pointer to it.
