@@ -141,7 +141,9 @@ To view solutions using the cloned repo, check out the solutions branch using: `
 
 ### Slices
 - Slices are a more convenient way to work with arrays;
+```
     Example: nameOfSlice := []typeOfSlice{"itemsOfTheSlice, x, y, z"}
+```
 - Can be resized using the *append()* function;
 - Can be created with a special *slice syntax*;
 - Slice memory can be preallocated using the *make()* function;
@@ -158,3 +160,12 @@ for i, element := range slice {
     fmt.Println(i, element)
 }
 ```
+
+### Maps
+- Maps store data in key-value pairs;
+- Very fast key accesses;
+- Use *range* to iterate through a map;
+- Use the *make()* function to create an empty map;
+- Use the *delete()* function to remove an entry from the map;
+- Read and write map uses similar syntax to array.
+- [Example from DEMO](https://github.com/rafacruzz/golang-complete-guide-udemy-course/blob/main/exercise/maps/maps.demo.go)
