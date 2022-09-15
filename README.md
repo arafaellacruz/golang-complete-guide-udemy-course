@@ -169,3 +169,18 @@ for i, element := range slice {
 - Use the *delete()* function to remove an entry from the map;
 - Read and write map uses similar syntax to array.
 - [Example from DEMO](https://github.com/rafacruzz/golang-complete-guide-udemy-course/blob/main/exercise/maps/maps.demo.go)
+
+### Pointers
+- We use the (*) whe you're declaring that you need a pointer to something and we use (&) when we want to actually create a pointer from something that already exists; 
+- Example:
+```
+value := 10
+var valuePtr  *int
+valuePtr = &value
+```
+- Pointers are used to modify data that exists outside of a function;
+- Asterisk (*) on a type indicates the type is a pointer;
+- Ampersand (&) creates a pointer;
+- Asterisk (*) on a variable will deference the pointer;
+    - Operations on a dereferenced pointer occur on the original data.
+
