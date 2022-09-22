@@ -184,3 +184,4 @@ valuePtr = &value
 - Asterisk (*) on a variable will deference the pointer;
     - Operations on a dereferenced pointer occur on the original data.
 
+### Section Review - Library
