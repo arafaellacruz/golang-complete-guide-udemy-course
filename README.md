@@ -7,13 +7,13 @@ This repo contains my exercises and annotations that I made during the course "G
 - [Section 2: Introduction to Go (Golang)](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
 - [Section 3: Go programming: Fundamentals](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
 - [Section 4: Go programming: Types](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-4-types)
-- [Section 5: Idiomatic Go] ()
-- [Section 6: Interfaces in Go] ()
-- [Section 7: Concurrent Programming with Go] ()
-- [Section 8: Final Milestone Project: Pixl] ()
-- [Section 9: Project: MailingList Microservice] ()
-- [Section 10: Where to Go from here?] ()
-- [Section 11: BONUS SECTION] ()
+- [Section 5: Idiomatic Go](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-5-idiomatic-go)
+- [Section 6: Interfaces in Go]()
+- [Section 7: Concurrent Programming with Go]()
+- [Section 8: Final Milestone Project: Pixl]()
+- [Section 9: Project: MailingList Microservice]()
+- [Section 10: Where to Go from here?]()
+- [Section 11: BONUS SECTION]()
 ## Section 1: Introduction about the course and resources
 You can find all of the course projects, code, slides at the below repository. You can use this as a guide as you go through the course, learn Go, and build projects!
 
@@ -185,3 +185,25 @@ valuePtr = &value
     - Operations on a dereferenced pointer occur on the original data.
 
 ### Section Review - Library
+
+## Section 5: Idiomatic Go
+
+### Receiver Functions
+- Receiver functions provide the "dot" notation for structs;
+    - Create a more convenient API's;
+- *Pointer* receivers can modify a struct;
+- *Value* receivers can not modify a struct;
+- Common to use pointer receivers.
+
+### iota
+
+- The *iota* keyword can be used to assign integers to constants;
+- *const* is like a variable, but unchanging;
+- Common to make groups of constants;
+- *iota* keyword can be used to automatically assign values;
+    - Increments 1 in the next constance;
+- Long-form and short-form;
+- Skip values with '_';
+- *iota* values can be expressions (iota + 5);
+- Use a receiver function to more easily work with constants and *iota*.
+
