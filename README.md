@@ -207,3 +207,25 @@ valuePtr = &value
 - *iota* values can be expressions (iota + 5);
 - Use a receiver function to more easily work with constants and *iota*.
 
+### Text formattinh: fmt
+- *fmt* package provides terminal printing and string formatting;
+- Provides functions:
+    - Printf: custom format;
+    - Print: simple print;
+    - Println: simple print with a newline;
+- *F* and *S* variants of the above functions:
+    - *F* prints to a data stream: *Fprintf*, *Fprint*, *Fprintln*;
+    - *S* prints to a new string: *Sprintf*, *Sprint*, *Sprintln*;
+
+### Packages
+
+### Init function
+- Common to have an initialization step in programs;
+    - Creaating a function named *init()* will perform initialization;
+    - *init()* is ran before the main() function;
+- Allows creation and validation of program state before execution begins;
+    - Check network connection, database connections, cache expensive operations, etc;
+- Each package can have it's own *init()* function;
+- All packages will execute *init()* before *main()* runs.
+
+### Testing
