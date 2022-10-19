@@ -8,12 +8,12 @@ This repo contains my exercises and annotations that I made during the course "G
 - [Section 3: Go programming: Fundamentals](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-1-introduction-about-the-course-and-resources)
 - [Section 4: Go programming: Types](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-4-types)
 - [Section 5: Idiomatic Go](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-5-idiomatic-go)
-- [Section 6: Interfaces in Go]()
-- [Section 7: Concurrent Programming with Go]()
-- [Section 8: Final Milestone Project: Pixl]()
-- [Section 9: Project: MailingList Microservice]()
-- [Section 10: Where to Go from here?]()
-- [Section 11: BONUS SECTION]()
+- [Section 6: Interfaces in Go](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-6-interfaces-in-go)
+- [Section 7: Concurrent Programming with Go](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-7-concurrent-programming-with-go)
+- [Section 8: Final Milestone Project: Pixl](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-8-final-milestone-project:-pixl)
+- [Section 9: Project: MailingList Microservice](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-9-project-mailinglist-microservice)
+- [Section 10: Where to Go from here?](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-10-where-to-go-from-here?)
+- [Section 11: BONUS SECTION](https://github.com/rafacruzz/golang-complete-guide-udemy-course#section-11-bonus-section)
 ## Section 1: Introduction about the course and resources
 You can find all of the course projects, code, slides at the below repository. You can use this as a guide as you go through the course, learn Go, and build projects!
 
@@ -229,3 +229,23 @@ valuePtr = &value
 - All packages will execute *init()* before *main()* runs.
 
 ### Testing
+- Test files end with *_test*;
+- Unit testing: test individual functions;
+- Integration testing: test functions/modules working together;
+- Unit tests should be in the same package;
+- Execute *go test* to run your tests;
+- Available Testing Functions:
+    - Many testing functions available in the *testing* package;
+    - *Fail()* - Mark the test as failed;
+        - *Errorf(string)* - Fail & add a message;
+    - *FailNow()* - Mark the test as failed, abort current test;
+        - *Fatal(string)* - Fail, abort, and add a message;
+    - *Logf()* - Equivalent to *Printf*, but only when test fails
+
+- Test Tables
+    - Usually need to test more than one set of input data (can be used to test multiple pieces of data);
+    - *Test tables* can be used to accomplish this;
+        - Similar to parameterized testing;
+
+
+## Section 6: Interfaces in Go
