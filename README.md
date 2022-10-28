@@ -249,3 +249,23 @@ valuePtr = &value
 
 
 ## Section 6: Interfaces in Go
+
+### Interfaces
+- Interfaces are *implicitly* implemented, this means that when a type has all the receiver functions required by the interface, then it is considered to be implemented;
+- Functions operating on interfaces should never accept a pointer to an interface;
+- Prefer multiple interfaces with a few functions over one large interface;
+- Interfaces allow functions to operate on more than one data type
+- Interfaces are implicitly implemented
+    - Create receiver functions matching interface function signatures
+- No need to use pointers to interfaces in function parameters 
+    - Use a pointer at the call site
+- If a *pointer* receiver function is implemented, then the type can only be used as a pointer in function calls.
+
+### Error handling
+
+- Errors are returned as the last return value from a function;
+- Use *errors.New()* to generate simple errors;
+    - Use *errors.As()* to retrieve an error, or errors.Is() to check the error type;
+- Implement the *error* interface for custom errors;
+- Always implement the interface as a receiver function;
+- Always check if *err != nil* for functions that return an error type.
